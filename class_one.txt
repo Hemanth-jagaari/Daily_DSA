@@ -1,0 +1,569 @@
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        example1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Hemanth\Documents\demogitapp>git add example1.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   example1.txt
+
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "commit first"
+[master (root-commit) 4bb31a5] commit first
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example1.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4 (HEAD -> master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git show 4bb31a51
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4 (HEAD -> master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+diff --git a/example1.txt b/example1.txt
+new file mode 100644
+index 0000000..c4e0355
+--- /dev/null
++++ b/example1.txt
+@@ -0,0 +1 @@
++Hi this is session from edureka
+\ No newline at end of file
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Hemanth\Documents\demogitapp>git add .
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   example1.txt
+
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "Updated file example1"
+[master 778fc27] Updated file example1
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912 (HEAD -> master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git show 778fc27
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912 (HEAD -> master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+diff --git a/example1.txt b/example1.txt
+index c4e0355..d03f862 100644
+--- a/example1.txt
++++ b/example1.txt
+@@ -1 +1,3 @@
+-Hi this is session from edureka
+\ No newline at end of file
++Hi This is session from Edureka
++Adding new line
++
+
+C:\Users\Hemanth\Documents\demogitapp>git ls-files
+example1.txt
+
+C:\Users\Hemanth\Documents\demogitapp>touch
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Hemanth\Documents\demogitapp>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Hemanth\Documents\demogitapp>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2EDE-32E9
+
+ Directory of C:\Users\Hemanth\Documents\demogitapp
+
+03-05-2021  20:01    <DIR>          .
+03-05-2021  20:01    <DIR>          ..
+03-05-2021  19:56                52 example1.txt
+03-05-2021  20:01                 0 example2.txt
+               2 File(s)             52 bytes
+               2 Dir(s)  856,300,085,248 bytes free
+
+C:\Users\Hemanth\Documents\demogitapp>git ls-files
+example1.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        example2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Hemanth\Documents\demogitapp>git add example2.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   example2.txt
+
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "commiting second file"
+[master e0b7074] commiting second file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 example2.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git ls-files
+example1.txt
+example2.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (HEAD -> master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git remote add origin https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore
+
+C:\Users\Hemanth\Documents\demogitapp>git remote -v
+origin  https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore (fetch)
+origin  https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore (push)
+
+C:\Users\Hemanth\Documents\demogitapp>git push origin master
+fatal: repository 'https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore/' not found
+
+C:\Users\Hemanth\Documents\demogitapp>git remote add origin https://github.com/Hemanth-jagaari/demogitapp.git
+error: remote origin already exists.
+
+C:\Users\Hemanth\Documents\demogitapp>git push origin master
+fatal: repository 'https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore/' not found
+
+C:\Users\Hemanth\Documents\demogitapp>git remote rm origin https://github.com/Hemanth-jagaari/demogitapp.git
+usage: git remote remove <name>
+
+
+C:\Users\Hemanth\Documents\demogitapp>git remote rm https://github.com/Hemanth-jagaari/demogitapp.git
+error: No such remote: 'https://github.com/Hemanth-jagaari/demogitapp.git'
+
+C:\Users\Hemanth\Documents\demogitapp>git remote rm https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore
+error: No such remote: 'https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore'
+
+C:\Users\Hemanth\Documents\demogitapp>git remote rm origin https://github.com/Hemanth-jagaari/demogitapp/blob/main/.gitignore
+usage: git remote remove <name>
+
+
+C:\Users\Hemanth\Documents\demogitapp>git remote rm origin
+
+C:\Users\Hemanth\Documents\demogitapp>git remote -v
+
+C:\Users\Hemanth\Documents\demogitapp>git remote add origin https://github.com/Hemanth-jagaari/demogitapp.git
+
+C:\Users\Hemanth\Documents\demogitapp>git remote -v
+origin  https://github.com/Hemanth-jagaari/demogitapp.git (fetch)
+origin  https://github.com/Hemanth-jagaari/demogitapp.git (push)
+
+C:\Users\Hemanth\Documents\demogitapp>git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (9/9), 751 bytes | 375.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Hemanth-jagaari/demogitapp/pull/new/master
+remote:
+To https://github.com/Hemanth-jagaari/demogitapp.git
+ * [new branch]      master -> master
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+* master
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git branch samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+* master
+  samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout samplebranch
+Switched to branch 'samplebranch'
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+  master
+* samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (HEAD -> samplebranch, origin/master, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        example3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Hemanth\Documents\demogitapp>git add example3.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   example3.txt
+
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "commiting file example3.txt"
+[samplebranch 902a416] commiting file example3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example3.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit 902a416ac72df53e875c58c03426faf52f83a7c6 (HEAD -> samplebranch)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:34:35 2021 +0530
+
+    commiting file example3.txt
+
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git log master
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git log samplebranch
+commit 902a416ac72df53e875c58c03426faf52f83a7c6 (HEAD -> samplebranch)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:34:35 2021 +0530
+
+    commiting file example3.txt
+
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+  master
+* samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git log master
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch samplebranch
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout samplebranch
+Already on 'samplebranch'
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout master
+Switched to branch 'master'
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+* master
+  samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git merge samplebranch
+Updating e0b7074..902a416
+Fast-forward
+ example3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example3.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit 902a416ac72df53e875c58c03426faf52f83a7c6 (HEAD -> master, samplebranch)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:34:35 2021 +0530
+
+    commiting file example3.txt
+
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Hemanth\Documents\demogitapp>git ls-files
+example1.txt
+example2.txt
+example3.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+* master
+  samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git branch rebasebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout rebasebranch
+Switched to branch 'rebasebranch'
+
+C:\Users\Hemanth\Documents\demogitapp>git branch
+  master
+* rebasebranch
+  samplebranch
+
+C:\Users\Hemanth\Documents\demogitapp>git add .
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "Updated example1.txt in rebasebranch"
+[rebasebranch bc8b7e3] Updated example1.txt in rebasebranch
+ 1 file changed, 2 insertions(+)
+
+C:\Users\Hemanth\Documents\demogitapp>git log
+commit bc8b7e35aa41b2aabe7c3f719c2308e63b74b779 (HEAD -> rebasebranch)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:43:04 2021 +0530
+
+    Updated example1.txt in rebasebranch
+
+commit 902a416ac72df53e875c58c03426faf52f83a7c6 (samplebranch, master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:34:35 2021 +0530
+
+    commiting file example3.txt
+
+commit e0b70740458935ca7b69e845cdda032a3ff600d1 (origin/master)
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 20:03:11 2021 +0530
+
+    commiting second file
+
+commit 778fc274011f3d7529ac3d2f0a8b3ebc3664c912
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:58:15 2021 +0530
+
+    Updated file example1
+
+commit 4bb31a5158cf2586b6d54c03abe30430eb6d51d4
+Author: hemanth <hemanthjagaari@gmail.com>
+Date:   Mon May 3 19:52:35 2021 +0530
+
+    commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git log --oneline
+bc8b7e3 (HEAD -> rebasebranch) Updated example1.txt in rebasebranch
+902a416 (samplebranch, master) commiting file example3.txt
+e0b7074 (origin/master) commiting second file
+778fc27 Updated file example1
+4bb31a5 commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git log --oneline master
+902a416 (samplebranch, master) commiting file example3.txt
+e0b7074 (origin/master) commiting second file
+778fc27 Updated file example1
+4bb31a5 commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout master
+Switched to branch 'master'
+
+C:\Users\Hemanth\Documents\demogitapp>git add .
+
+C:\Users\Hemanth\Documents\demogitapp>git commit -m "Adding example4.txt in master"
+[master 4839890] Adding example4.txt in master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example4.txt
+
+C:\Users\Hemanth\Documents\demogitapp>git log --oneline
+4839890 (HEAD -> master) Adding example4.txt in master
+902a416 (samplebranch) commiting file example3.txt
+e0b7074 (origin/master) commiting second file
+778fc27 Updated file example1
+4bb31a5 commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git log --oneline rebasebranch
+bc8b7e3 (rebasebranch) Updated example1.txt in rebasebranch
+902a416 (samplebranch) commiting file example3.txt
+e0b7074 (origin/master) commiting second file
+778fc27 Updated file example1
+4bb31a5 commit first
+
+C:\Users\Hemanth\Documents\demogitapp>git checkout rebasebranch
+Switched to branch 'rebasebranch'
+
+C:\Users\Hemanth\Documents\demogitapp>git rebase master
+Successfully rebased and updated refs/heads/rebasebranch.
+
+C:\Users\Hemanth\Documents\demogitapp>git log --oneline
+7beaa40 (HEAD -> rebasebranch) Updated example1.txt in rebasebranch
+4839890 (master) Adding example4.txt in master
+902a416 (samplebranch) commiting file example3.txt
+e0b7074 (origin/master) commiting second file
+778fc27 Updated file example1
+4bb31a5 commit first
+
+C:\Users\Hemanth\Documents\demogitapp>
