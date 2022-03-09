@@ -12,12 +12,11 @@ print("hello world!")
 
 </p>
   <details><summary>January</summary>
-    <details> <summary>Day1 Balloon Burst</summary>
       <p>
-      [Balloon Burst](https://www.google.com)
+      [Day 1 Balloon Burst](https://github.com/Hemanth-jagaari/Daily_DSA)
       </p>
-    </details>
-    [Balloon Burst](https://www.google.com)
+    
+    
     
     
     
@@ -35,7 +34,7 @@ print("hello world!")
   </details>
   <details><summary>March</summary>
     <p>
-      [Day_9_remove duplicates_2] (https://github.com/Hemanth-jagaari/Daily_DSA)
+      [Day_9_remove duplicates_2] (https://github.com/Hemanth-jagaari/Daily_DSA/Solution82.java)
     </p>
   </details>
   <details><summary>April</summary>
