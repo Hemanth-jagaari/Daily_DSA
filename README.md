@@ -7,38 +7,26 @@
 
 
 ```python
-print("hello world!")
+print("WELCOME!")
 ```
 
 </p>
-  <details><summary>January</summary>
-      <p>
-      [Day 1 Balloon Burst](https://github.com/Hemanth-jagaari/Daily_DSA)
-      </p>
+  <details><summary>January</summary>   
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  [Day 1 Balloon Burst](https://github.com/Hemanth-jagaari/Daily_DSA)    
+ 
   </details>
   <details><summary>February</summary>
   </details>
-  <details><summary>March</summary>
-    <p>
-      [Day_9_remove duplicates_2] (https://github.com/Hemanth-jagaari/Daily_DSA/blob/main/Solution82.java)
-    </p>
+  
+  <details><summary>March</summary>   
+    
+    
+    
+  [Day 9 Remove Duplicates 2](https://github.com/Hemanth-jagaari/Daily_DSA/Solution82.java)    
+ 
   </details>
-  <details><summary>April</summary>
-  </details>
-  <details><summary>May</summary>
-  </details>
+  
 </details>
