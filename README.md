@@ -15,7 +15,7 @@ print("WELCOME!")
     
     
     
-  [Day 1 Balloon Burst](https://github.com/Hemanth-jagaari/Daily_DSA)    
+  [Day 1 Balloon Burst](/Solution312.java)    
  
   </details>
   <details><summary>February</summary>
