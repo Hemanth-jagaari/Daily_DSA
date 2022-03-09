@@ -25,7 +25,7 @@ print("WELCOME!")
     
     
     
-  [Day 9 Remove Duplicates 2](https://github.com/Hemanth-jagaari/Daily_DSA/Solution82.java)    
+  [Day 9 Remove Duplicates 2](https://github.com/Hemanth-jagaari/Daily_DSA/)    
  
   </details>
   
