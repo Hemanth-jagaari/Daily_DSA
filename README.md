@@ -25,7 +25,8 @@ print("WELCOME!")
     
     
     
-  [Day 9 Remove Duplicates 2](https://github.com/Hemanth-jagaari/Daily_DSA/)    
+  [Day 9 Remove Duplicates 2](/Solution82.java)    
+  [Day 10](/welcome.txt)
  
   </details>
   
