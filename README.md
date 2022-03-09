@@ -35,7 +35,7 @@ print("hello world!")
   </details>
   <details><summary>March</summary>
     <p>
-      [Day_9_remove duplicates_2] (/Solution82.java)
+      [Day_9_remove duplicates_2] (https://github.com/Hemanth-jagaari/Daily_DSA)
     </p>
   </details>
   <details><summary>April</summary>
