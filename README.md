@@ -52,7 +52,11 @@ print("WELCOME!")
   <details><summary>February</summary>
   </details>
   
-  <details><summary>March</summary>   
+  <details><summary>March</summary>  
+    
+    
+    
+  
   [Day 1 Counting Bits](/2022/March/Solution338.java)<br>
   [Day 2 Is Subsequence](/2022/March/Solution392.java)<br>
   [Day 3 Arithmetic Slices](/2022/March/Solution413.java)<br>
@@ -60,8 +64,8 @@ print("WELCOME!")
   [Day 5 Delete and Earn](/2022/March/Solution740.java)<br>
   [Day 6 Count All Valid Pickup and Delivery Options](/2022/March/Solution1359.java)<br>
   [Day 7 Merge Two Sorted Lists](/2022/March/Solution21.java)<br>
-  [Day 8 Linked List Cycle](/2022/March/Solution141.java)<br>  
-  [Day 9 Remove Duplicates 2](/2022/March/Solution82.java)<br>    
+  [Day 8 Linked List Cycle](/2022/March/Solution141.java)<br>
+  [Day 9 Remove Duplicates 2](/2022/March/Solution82.java)<br>
   [Day 10 Add Two Numbers](/2022/March/Solution2.java)<br>
   [Day 11 Rotate List](/2022/March/Solution61.java)<br>
   [Day 12 Copy List with Random Pointer](/2022/March/Solution138.java)<br>
