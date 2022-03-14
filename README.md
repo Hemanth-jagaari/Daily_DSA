@@ -49,7 +49,47 @@ print("WELCOME!")
   
  
   </details>
+  
+  
+  
   <details><summary>February</summary>
+    
+    
+    
+    
+    
+    
+    
+   [Day 1](/2022/Feb/Solution.java)<br>
+    [Day 2](/2022/Feb/Solution.java)<br>
+    [Day 3](/2022/Feb/Solution.java)<br>
+    [Day 4](/2022/Feb/Solution.java)<br>
+    [Day 5](/2022/Feb/Solution.java)<br>
+    [Day 6](/2022/Feb/Solution.java)<br>
+    [Day 7](/2022/Feb/Solution.java)<br>
+    [Day 8](/2022/Feb/Solution.java)<br>
+    [Day 9](/2022/Feb/Solution.java)<br>
+    [Day 10](/2022/Feb/Solution.java)<br>
+    [Day 11](/2022/Feb/Solution.java)<br>
+    [Day 12](/2022/Feb/Solution.java)<br>
+    [Day 13](/2022/Feb/Solution.java)<br>
+    [Day 14](/2022/Feb/Solution.java)<br>
+    [Day 15](/2022/Feb/Solution.java)<br>
+    [Day 16](/2022/Feb/Solution.java)<br>
+    [Day 17](/2022/Feb/Solution.java)<br>
+    [Day 18](/2022/Feb/Solution.java)<br>
+    [Day 19](/2022/Feb/Solution.java)<br>
+    [Day 20](/2022/Feb/Solution.java)<br>
+    [Day 21](/2022/Feb/Solution.java)<br>
+    [Day 22](/2022/Feb/Solution.java)<br>
+    [Day 23](/2022/Feb/Solution.java)<br>
+    [Day 24](/2022/Feb/Solution.java)<br>
+    [Day 25](/2022/Feb/Solution.java)<br>
+    [Day 26](/2022/Feb/Solution.java)<br>
+    [Day 27](/2022/Feb/Solution.java)<br>
+    [Day 28](/2022/Feb/Solution.java)<br>
+    
+    
   </details>
   
   <details><summary>March</summary>  
