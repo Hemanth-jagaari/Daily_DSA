@@ -25,27 +25,27 @@ print("WELCOME!")
   [Day 8 Cherry Pickup II](/2022/Jan/Solution1463.java)<br>
   [Day 9  Robot Bounded In Circle](/2022/Jan/Solution1041.java)<br>
   [Day 10 Add Binary](/2022/Jan/Solution67.java)<br>
-  [Day 11](/Solution.java)<br>
-  [Day 12](/Solution.java)<br>
-  [Day 13](/Solution.java)<br>
-  [Day 14](/Solution.java)<br>
-  [Day 15](/Solution.java)<br>
-  [Day 16](/Solution.java)<br>
-  [Day 17](/Solution.java)<br>
-  [Day 18](/Solution.java)<br>
-  [Day 19](/Solution.java)<br>
-  [Day 20](/Solution.java)<br>
-  [Day 21](/Solution.java)<br>
-  [Day 22](/Solution.java)<br>
-  [Day 23](/Solution.java)<br>
-  [Day 24](/Solution.java)<br>
-  [Day 25](/Solution.java)<br>
-  [Day 26](/Solution.java)<br>
-  [Day 27](/Solution.java)<br>
-  [Day 28](/Solution.java)<br>
-  [Day 29](/Solution.java)<br>
-  [Day 30](/Solution.java)<br>
-  [Day 31](/Solution.java)<br>
+  [Day 11](/2022/Jan/Solution.java)<br>
+  [Day 12](/2022/Jan/Solution.java)<br>
+  [Day 13](/2022/Jan/Solution.java)<br>
+  [Day 14](/2022/Jan/Solution.java)<br>
+  [Day 15](/2022/Jan/Solution.java)<br>
+  [Day 16](/2022/Jan/Solution.java)<br>
+  [Day 17](/2022/Jan/Solution.java)<br>
+  [Day 18](/2022/Jan/Solution.java)<br>
+  [Day 19](/2022/Jan/Solution.javaa)<br>
+  [Day 20](/2022/Jan/Solution.java)<br>
+  [Day 21](/2022/Jan/Solution.java)<br>
+  [Day 22](/2022/Jan/Solution.java)<br>
+  [Day 23](/2022/Jan/Solution.java)<br>
+  [Day 24](/2022/Jan/Solution.java)<br>
+  [Day 25](/2022/Jan/Solution.java)<br>
+  [Day 26](/2022/Jan/Solution.java)<br>
+  [Day 27](/2022/Jan/Solution.java)<br>
+  [Day 28](/2022/Jan/Solution.java)<br>
+  [Day 29](/2022/Jan/Solution.java)<br>
+  [Day 30](/2022/Jan/Solution.java)<br>
+  [Day 31](/2022/Jan/Solution.java)<br>
   
  
   </details>
