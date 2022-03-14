@@ -1,6 +1,7 @@
 
 //Leetcode jan-1-2022
 /*
+---------------------------------------Balloon Burst--------------------------------------------------------------------
 You are given n balloons, indexed from 0 to n - 1. Each balloon is painted with a number on it represented by an array nums. You are asked to burst all the balloons.
 
 If you burst the ith balloon, you will get nums[i - 1] * nums[i] * nums[i + 1] coins. If i - 1 or i + 1 goes out of bounds of the array, then treat it as if there is a balloon with a 1 painted on it.
@@ -82,6 +83,7 @@ Now there are 3 variables in our main equation: the values of the 3 balloons to 
 Now just try all the possible middle balloons to pop (the 3rd variable). For each balloon we choose, use it as the right and left ballon of the next level of recursion, along with the padded 1's, and so forth.
 Base case is when there are no more balloons between the left and right balloon indexes (left+1 == right)
 Time complexity will be O(N^3)*/
+//////////////////////////////////////////////////////still trying to solve////////////////////////////////////////////////////////// 
 class Solution312 {
     public int maxCoins(int[] nums) {
         

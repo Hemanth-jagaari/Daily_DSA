@@ -23,7 +23,7 @@ print("WELCOME!")
   [Day 6 Car Pooling](/2022/Jan/Solution1094.java)<br>
   [Day 7 Linked List Random Node](/2022/Jan/Solution382.java)<br>
   [Day 8 Cherry Pickup II](/2022/Jan/Solution1463.java)<br>
-  [Day 9  Robot Bounded In Circle](/2022/Jan/Solution1046.java)<br>
+  [Day 9  Robot Bounded In Circle](/2022/Jan/Solution1041.java)<br>
   [Day 10 Add Binary](/2022/Jan/Solution67.java)<br>
   [Day 11](/Solution.java)<br>
   [Day 12](/Solution.java)<br>
