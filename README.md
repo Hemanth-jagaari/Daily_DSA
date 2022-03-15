@@ -120,8 +120,28 @@ print("WELCOME!")
   
   
   
-  [Biweekly contest 68](/Contests/biweek/biweekly68)<br>
-[Weekly contest 273](/Contests/weekly/weekly273)
+  [Biweekly Contest 68](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 273](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 274](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 69](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 275](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 276](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 70](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 277](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 278](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 71](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 279](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 280](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 72](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 281](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 282](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 72](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 283](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 284](/Contests/weekly/weekly274)<br>
+  [Biweekly Contest 73](/Contests/biweek/biweekly68)<br>
+  [Weekly Contest 285](/Contests/weekly/weekly273)<br>
+  [Weekly Contest 286](/Contests/weekly/weekly274)<br>
+  
 
 
 
