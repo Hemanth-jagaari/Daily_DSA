@@ -31,21 +31,21 @@ print("WELCOME!")
   [Day 14 String to Integer (atoi)](/2022/Jan/Solution8.java)<br>
   [Day 15 Jump Game IV](/2022/Jan/Solution1345.java)<br>
   [Day 16 Maximize Distance to Closest Person](/2022/Jan/Solution849.java)<br>
-  [Day 17](/2022/Jan/Solution.java)<br>
-  [Day 18](/2022/Jan/Solution.java)<br>
-  [Day 19](/2022/Jan/Solution.javaa)<br>
-  [Day 20](/2022/Jan/Solution.java)<br>
-  [Day 21](/2022/Jan/Solution.java)<br>
-  [Day 22](/2022/Jan/Solution.java)<br>
-  [Day 23](/2022/Jan/Solution.java)<br>
-  [Day 24](/2022/Jan/Solution.java)<br>
-  [Day 25](/2022/Jan/Solution.java)<br>
-  [Day 26](/2022/Jan/Solution.java)<br>
-  [Day 27](/2022/Jan/Solution.java)<br>
-  [Day 28](/2022/Jan/Solution.java)<br>
-  [Day 29](/2022/Jan/Solution.java)<br>
-  [Day 30](/2022/Jan/Solution.java)<br>
-  [Day 31](/2022/Jan/Solution.java)<br>
+  [Day 17 Word Pattern](/2022/Jan/Solution290.java)<br>
+  [Day 18 Can Place Flowers](/2022/Jan/Solution605.java)<br>
+  [Day 19 Linked List Cycle II](/2022/Jan/Solution142.javaa)<br>
+  [Day 20 Koko Eating Bananas](/2022/Jan/Solution875.java)<br>
+  [Day 21 Gas Station](/2022/Jan/Solution134.java)<br>
+  [Day 22 Stone Game IV](/2022/Jan/Solution1510.java)<br>
+  [Day 23 Sequential Digits](/2022/Jan/Solution1291.java)<br>
+  [Day 24 Detect Capital](/2022/Jan/Solution520.java)<br>
+  [Day 25 Valid Mountain Array](/2022/Jan/Solution941.java)<br>
+  [Day 26 All Elements in Two Binary Search Trees](/2022/Jan/Solution1305.java)<br>
+  [Day 27 Maximum XOR of Two Numbers in an Array](/2022/Jan/Solution421.java)<br>
+  [Day 28 Design Add and Search Words Data Structure](/2022/Jan/Solution211.java)<br>
+  [Day 29 Largest Rectangle in Histogram](/2022/Jan/Solution84.java)<br>
+  [Day 30 Rotate Array](/2022/Jan/Solution189.java)<br>
+  [Day 31 Richest Customer Wealth](/2022/Jan/Solution1672.java)<br>
   
  
   </details>
