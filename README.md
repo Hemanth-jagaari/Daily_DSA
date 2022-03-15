@@ -60,12 +60,12 @@ print("WELCOME!")
     
     
     
-   [Day 1](/2022/Feb/Solution.java)<br>
-    [Day 2](/2022/Feb/Solution.java)<br>
-    [Day 3](/2022/Feb/Solution.java)<br>
-    [Day 4](/2022/Feb/Solution.java)<br>
-    [Day 5](/2022/Feb/Solution.java)<br>
-    [Day 6](/2022/Feb/Solution.java)<br>
+   [Day 1 Best Time to Buy and Sell Stock](/2022/Feb/Solution121.java)<br>
+    [Day 2 Find All Anagrams in a String](/2022/Feb/Solution438.java)<br>
+    [Day 3 4Sum II](/2022/Feb/Solution454.java)<br>
+    [Day 4 Contiguous Array](/2022/Feb/Solution525.java)<br>
+    [Day 5 Merge k Sorted Lists](/2022/Feb/Solution23.java)<br>
+    [Day 6 Remove Duplicates from Sorted Array II](/2022/Feb/Solution80.java)<br>
     [Day 7](/2022/Feb/Solution.java)<br>
     [Day 8](/2022/Feb/Solution.java)<br>
     [Day 9](/2022/Feb/Solution.java)<br>
@@ -111,6 +111,7 @@ print("WELCOME!")
   [Day 12 Copy List with Random Pointer](/2022/March/Solution138.java)<br>
   [Day 13 Valid Parenthesis](/2022/March/Solution20.java)<br>
   [Day 14 Simplify Path](/2022/March/Solution71.java)<br>
+  [Day 15 Minimum Remove to Make Valid Parentheses](/2022/March/Solution1249.java)<br>
  
   </details>
   
