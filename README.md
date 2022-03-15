@@ -33,15 +33,6 @@ print("WELCOME!")
   [Day 16 Maximize Distance to Closest Person](/2022/Jan/Solution849.java)<br>
   [Day 17](/2022/Jan/Solution.java)<br>
   [Day 18](/2022/Jan/Solution.java)<br>
-  [Day 19](/2022/Jan/Solution.java)<br>
-  [Day 11](/2022/Jan/Solution.java)<br>
-  [Day 12](/2022/Jan/Solution.java)<br>
-  [Day 13](/2022/Jan/Solution.java)<br>
-  [Day 14](/2022/Jan/Solution.java)<br>
-  [Day 15](/2022/Jan/Solution.java)<br>
-  [Day 16](/2022/Jan/Solution.java)<br>
-  [Day 17](/2022/Jan/Solution.java)<br>
-  [Day 18](/2022/Jan/Solution.java)<br>
   [Day 19](/2022/Jan/Solution.javaa)<br>
   [Day 20](/2022/Jan/Solution.java)<br>
   [Day 21](/2022/Jan/Solution.java)<br>
