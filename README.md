@@ -116,3 +116,13 @@ print("WELCOME!")
   </details>
   
 </details>
+<details><summary>Leetcode weekly contest</summary>
+  
+  
+  
+  [Biweekly contest 68](/Contests/biweek/biweekly68)<br>
+[Weekly contest 273](/Contests/weekly/weekly273)
+
+
+
+</details>
