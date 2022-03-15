@@ -25,6 +25,7 @@ print("WELCOME!")
   [Day 8 Cherry Pickup II](/2022/Jan/Solution1463.java)<br>
   [Day 9  Robot Bounded In Circle](/2022/Jan/Solution1041.java)<br>
   [Day 10 Add Binary](/2022/Jan/Solution67.java)<br>
+<<<<<<< HEAD
   [Day 11 Sum of Root To Leaf Binary Numbers](/2022/Jan/Solution1022.java)<br>
   [Day 12 Insert into a Binary Search Tree](/2022/Jan/Solution701.java)<br>
   [Day 13 Minimum Number of Arrows to Burst Balloons](/2022/Jan/Solution452.java)<br>
@@ -34,6 +35,17 @@ print("WELCOME!")
   [Day 17](/2022/Jan/Solution.java)<br>
   [Day 18](/2022/Jan/Solution.java)<br>
   [Day 19](/2022/Jan/Solution.java)<br>
+=======
+  [Day 11](/2022/Jan/Solution.java)<br>
+  [Day 12](/2022/Jan/Solution.java)<br>
+  [Day 13](/2022/Jan/Solution.java)<br>
+  [Day 14](/2022/Jan/Solution.java)<br>
+  [Day 15](/2022/Jan/Solution.java)<br>
+  [Day 16](/2022/Jan/Solution.java)<br>
+  [Day 17](/2022/Jan/Solution.java)<br>
+  [Day 18](/2022/Jan/Solution.java)<br>
+  [Day 19](/2022/Jan/Solution.javaa)<br>
+>>>>>>> 664c109ac868827ba07f91b6d2bfa1cdd9d70afa
   [Day 20](/2022/Jan/Solution.java)<br>
   [Day 21](/2022/Jan/Solution.java)<br>
   [Day 22](/2022/Jan/Solution.java)<br>
@@ -49,7 +61,47 @@ print("WELCOME!")
   
  
   </details>
+  
+  
+  
   <details><summary>February</summary>
+    
+    
+    
+    
+    
+    
+    
+   [Day 1](/2022/Feb/Solution.java)<br>
+    [Day 2](/2022/Feb/Solution.java)<br>
+    [Day 3](/2022/Feb/Solution.java)<br>
+    [Day 4](/2022/Feb/Solution.java)<br>
+    [Day 5](/2022/Feb/Solution.java)<br>
+    [Day 6](/2022/Feb/Solution.java)<br>
+    [Day 7](/2022/Feb/Solution.java)<br>
+    [Day 8](/2022/Feb/Solution.java)<br>
+    [Day 9](/2022/Feb/Solution.java)<br>
+    [Day 10](/2022/Feb/Solution.java)<br>
+    [Day 11](/2022/Feb/Solution.java)<br>
+    [Day 12](/2022/Feb/Solution.java)<br>
+    [Day 13](/2022/Feb/Solution.java)<br>
+    [Day 14](/2022/Feb/Solution.java)<br>
+    [Day 15](/2022/Feb/Solution.java)<br>
+    [Day 16](/2022/Feb/Solution.java)<br>
+    [Day 17](/2022/Feb/Solution.java)<br>
+    [Day 18](/2022/Feb/Solution.java)<br>
+    [Day 19](/2022/Feb/Solution.java)<br>
+    [Day 20](/2022/Feb/Solution.java)<br>
+    [Day 21](/2022/Feb/Solution.java)<br>
+    [Day 22](/2022/Feb/Solution.java)<br>
+    [Day 23](/2022/Feb/Solution.java)<br>
+    [Day 24](/2022/Feb/Solution.java)<br>
+    [Day 25](/2022/Feb/Solution.java)<br>
+    [Day 26](/2022/Feb/Solution.java)<br>
+    [Day 27](/2022/Feb/Solution.java)<br>
+    [Day 28](/2022/Feb/Solution.java)<br>
+    
+    
   </details>
   
   <details><summary>March</summary>  
