@@ -66,12 +66,12 @@ print("WELCOME!")
     [Day 4 Contiguous Array](/2022/Feb/Solution525.java)<br>
     [Day 5 Merge k Sorted Lists](/2022/Feb/Solution23.java)<br>
     [Day 6 Remove Duplicates from Sorted Array II](/2022/Feb/Solution80.java)<br>
-    [Day 7](/2022/Feb/Solution.java)<br>
-    [Day 8](/2022/Feb/Solution.java)<br>
-    [Day 9](/2022/Feb/Solution.java)<br>
-    [Day 10](/2022/Feb/Solution.java)<br>
-    [Day 11](/2022/Feb/Solution.java)<br>
-    [Day 12](/2022/Feb/Solution.java)<br>
+    [Day 7 Find the Difference](/2022/Feb/Solution389.java)<br>
+    [Day 8 Add Digits](/2022/Feb/Solution258.java)<br>
+    [Day 9 K-diff Pairs in an Array](/2022/Feb/Solution532.java)<br>
+    [Day 10 Subarray Sum Equals K](/2022/Feb/Solution560.java)<br>
+    [Day 11 Permutation in String](/2022/Feb/Solution567.java)<br>
+    [Day 12 Word Ladder](/2022/Feb/Solution127.java)<br>
     [Day 13](/2022/Feb/Solution.java)<br>
     [Day 14](/2022/Feb/Solution.java)<br>
     [Day 15](/2022/Feb/Solution.java)<br>
@@ -112,6 +112,7 @@ print("WELCOME!")
   [Day 13 Valid Parenthesis](/2022/March/Solution20.java)<br>
   [Day 14 Simplify Path](/2022/March/Solution71.java)<br>
   [Day 15 Minimum Remove to Make Valid Parentheses](/2022/March/Solution1249.java)<br>
+  [Day 15 Validate Stack Sequences](/2022/March/Solution946.java)<br>
  
   </details>
   
