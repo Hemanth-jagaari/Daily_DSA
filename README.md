@@ -72,14 +72,14 @@ print("WELCOME!")
     [Day 10 Subarray Sum Equals K](/2022/Feb/Solution560.java)<br>
     [Day 11 Permutation in String](/2022/Feb/Solution567.java)<br>
     [Day 12 Word Ladder](/2022/Feb/Solution127.java)<br>
-    [Day 13](/2022/Feb/Solution.java)<br>
-    [Day 14](/2022/Feb/Solution.java)<br>
-    [Day 15](/2022/Feb/Solution.java)<br>
-    [Day 16](/2022/Feb/Solution.java)<br>
-    [Day 17](/2022/Feb/Solution.java)<br>
-    [Day 18](/2022/Feb/Solution.java)<br>
-    [Day 19](/2022/Feb/Solution.java)<br>
-    [Day 20](/2022/Feb/Solution.java)<br>
+    [Day 13 Subsets](/2022/Feb/Solution78.java)<br>
+    [Day 14 Maximum Depth of Binary Tree](/2022/Feb/Solution104.java)<br>
+    [Day 15 Single Number](/2022/Feb/Solution136.java)<br>
+    [Day 16 Swap Nodes in Pairs](/2022/Feb/Solution24.java)<br>
+    [Day 17 Combination Sum](/2022/Feb/Solution39.java)<br>
+    [Day 18 Remove K Digits](/2022/Feb/Solution402.java)<br>
+    [Day 19 Minimize Deviation in Array](/2022/Feb/Solution1675.java)<br>
+    [Day 20 Remove Covered Intervals](/2022/Feb/Solution1288.java)<br>
     [Day 21](/2022/Feb/Solution.java)<br>
     [Day 22](/2022/Feb/Solution.java)<br>
     [Day 23](/2022/Feb/Solution.java)<br>
