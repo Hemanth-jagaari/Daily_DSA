@@ -80,14 +80,14 @@ print("WELCOME!")
     [Day 18 Remove K Digits](/2022/Feb/Solution402.java)<br>
     [Day 19 Minimize Deviation in Array](/2022/Feb/Solution1675.java)<br>
     [Day 20 Remove Covered Intervals](/2022/Feb/Solution1288.java)<br>
-    [Day 21](/2022/Feb/Solution.java)<br>
-    [Day 22](/2022/Feb/Solution.java)<br>
-    [Day 23](/2022/Feb/Solution.java)<br>
-    [Day 24](/2022/Feb/Solution.java)<br>
-    [Day 25](/2022/Feb/Solution.java)<br>
-    [Day 26](/2022/Feb/Solution.java)<br>
-    [Day 27](/2022/Feb/Solution.java)<br>
-    [Day 28](/2022/Feb/Solution.java)<br>
+    [Day 21 Majority Element](/2022/Feb/Solution169.java)<br>
+    [Day 22 Excel Sheet Column Number](/2022/Feb/Solution171.java)<br>
+    [Day 23 Clone Graph](/2022/Feb/Solution133.java)<br>
+    [Day 24 Sort List](/2022/Feb/Solution148.java)<br>
+    [Day 25 Compare Version Numbers](/2022/Feb/Solution165.java)<br>
+    [Day 26 Shortest Path Visiting All Nodes](/2022/Feb/Solution847.java)<br>
+    [Day 27 Maximum Width of Binary Tree](/2022/Feb/Solution662.java)<br>
+    [Day 28 Summary Ranges](/2022/Feb/Solution228.java)<br>
     
     
   </details>
@@ -112,7 +112,8 @@ print("WELCOME!")
   [Day 13 Valid Parenthesis](/2022/March/Solution20.java)<br>
   [Day 14 Simplify Path](/2022/March/Solution71.java)<br>
   [Day 15 Minimum Remove to Make Valid Parentheses](/2022/March/Solution1249.java)<br>
-  [Day 15 Validate Stack Sequences](/2022/March/Solution946.java)<br>
+  [Day 16 Validate Stack Sequences](/2022/March/Solution946.java)<br>
+  [Day 17 Score of Parentheses](/2022/March/Solution856.java)<br>
  
   </details>
   
