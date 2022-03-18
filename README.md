@@ -114,6 +114,7 @@ print("WELCOME!")
   [Day 15 Minimum Remove to Make Valid Parentheses](/2022/March/Solution1249.java)<br>
   [Day 16 Validate Stack Sequences](/2022/March/Solution946.java)<br>
   [Day 17 Score of Parentheses](/2022/March/Solution856.java)<br>
+  [Day 18 Remove Duplicate Letters](/2022/March/Solution316.java)<br>
  
   </details>
   
