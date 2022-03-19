@@ -123,7 +123,7 @@ print("WELCOME!")
   
   
   
-  [Biweekly Contest 68](/Contests/biweek/biweekly68)<br>
+  [Biweekly Contest 68](/Contests/Biweekly/week68.md)<br>
   [Weekly Contest 273](/Contests/Weekly/Week273.md)<br>
   [Weekly Contest 274](/Contests/weekly/weekly274)<br>
   [Biweekly Contest 69](/Contests/biweek/biweekly68)<br>
