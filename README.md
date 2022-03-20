@@ -116,6 +116,7 @@ print("WELCOME!")
   [Day 17 Score of Parentheses](/2022/March/Solution856.java)<br>
   [Day 18 Remove Duplicate Letters](/2022/March/Solution316.java)<br>
   [Day 19 Maximum Frequency Stack](/2022/March/Solution895.java)<br>
+  [Day 20 Minimum Domino Rotations For Equal Row](/2022/March/Solution1007.java)<br>
  
   </details>
   
