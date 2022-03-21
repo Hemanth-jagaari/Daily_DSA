@@ -117,6 +117,7 @@ print("WELCOME!")
   [Day 18 Remove Duplicate Letters](/2022/March/Solution316.java)<br>
   [Day 19 Maximum Frequency Stack](/2022/March/Solution895.java)<br>
   [Day 20 Minimum Domino Rotations For Equal Row](/2022/March/Solution1007.java)<br>
+  [Day 21 Partition Labels](/2022/March/Solution763.java)<br>
  
   </details>
   
@@ -127,26 +128,26 @@ print("WELCOME!")
   
   [Biweekly Contest 68](/Contests/Biweekly/Week68.md)<br>
   [Weekly Contest 273](/Contests/Weekly/Week273.md)<br>
-  [Weekly Contest 274](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 69](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 275](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 276](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 70](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 277](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 278](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 71](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 279](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 280](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 72](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 281](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 282](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 72](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 283](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 284](/Contests/weekly/weekly274)<br>
-  [Biweekly Contest 73](/Contests/biweek/biweekly68)<br>
-  [Weekly Contest 285](/Contests/weekly/weekly273)<br>
-  [Weekly Contest 286](/Contests/weekly/weekly274)<br>
-  
+  [Weekly Contest 274](/Contests/Weekly/Week274.md)<br>
+  [Biweekly Contest 69](/Contests/Biweekly/Week69.md)<br>
+  [Weekly Contest 275](/Contests/Weekly/Week275.md)<br>
+  [Weekly Contest 276](/Contests/Weekly/Week276.md)<br>
+  [Biweekly Contest 70](/Contests/Biweekly/Week70.md)<br>
+  [Weekly Contest 277](/Contests/Weekly/Week277.md)<br>
+  [Weekly Contest 278](/Contests/Weekly/Week278.md)<br>
+  [Biweekly Contest 71](/Contests/Biweekly/Week71.md)<br>
+  [Weekly Contest 279](/Contests/Weekly/Week279.md)<br>
+  [Weekly Contest 280](/Contests/Weekly/Week280.md)<br>
+  [Biweekly Contest 72](/Contests/Biweekly/Week72.md)<br>
+  [Weekly Contest 281](/Contests/Weekly/Week281.md)<br>
+  [Weekly Contest 282](/Contests/Weekly/Week282.md)<br>
+  [Biweekly Contest 73](/Contests/Biweekly/Week73.md)<br>
+  [Weekly Contest 283](/Contests/Weekly/Week283.md)<br>
+  [Weekly Contest 284](/Contests/Weekly/Week284.md)<br>
+  [Biweekly Contest 74](/Contests/Biweekly/Week74)<br>
+  [Weekly Contest 285](/Contests/Weekly/Week285.md)<br>
+  [Weekly Contest 286](/Contests/Weekly/Week286.md)<br>
+  [Biweekly Contest 75](/Contests/Biweekly/Week75.md)<br>
 
 
 
