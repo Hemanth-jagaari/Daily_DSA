@@ -118,6 +118,7 @@ print("WELCOME!")
   [Day 19 Maximum Frequency Stack](/2022/March/Solution895.java)<br>
   [Day 20 Minimum Domino Rotations For Equal Row](/2022/March/Solution1007.java)<br>
   [Day 21 Partition Labels](/2022/March/Solution763.java)<br>
+  [Day 22 Smallest String With A Given Numeric Value](/2022/March/Solution1663.java)<br>
  
   </details>
   
