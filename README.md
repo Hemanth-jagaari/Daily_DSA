@@ -121,6 +121,7 @@ print("WELCOME!")
   [Day 22 Smallest String With A Given Numeric Value](/2022/March/Solution1663.java)<br>
   [Day 23 Broken Calculator](/2022/March/Solution991.java)<br>
   [Day 24 Boats to Save People](/2022/March/Solution881.java)<br>
+  [Day 25 Two City Scheduling](/2022/March/Solution1029.java)<br>
  
   </details>
   

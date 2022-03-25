@@ -3,13 +3,6 @@
 ---------------------------------------258. Add Digits--------------------------------------------------------------------------
 Easy
 
-2354
-
-1635
-
-Add to List
-
-Share
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 
  

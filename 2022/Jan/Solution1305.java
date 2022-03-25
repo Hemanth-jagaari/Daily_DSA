@@ -3,13 +3,6 @@
 ------------------------------------------------1305. All Elements in Two Binary Search Trees--------------------------------------------
 Medium
 
-2144
-
-63
-
-Add to List
-
-Share
 Given two binary search trees root1 and root2, return a list containing all the integers from both trees sorted in ascending order.
 
  

@@ -2,14 +2,6 @@
 /*
 ---------------------------------------------------------------211. Design Add and Search Words Data Structure---------------------------------------
 Medium
-
-4661
-
-195
-
-Add to List
-
-Share
 Design a data structure that supports adding new words and finding if a string matches any previously added string.
 
 Implement the WordDictionary class:

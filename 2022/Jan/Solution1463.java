@@ -2,14 +2,6 @@
 /*
 ---------------------------------------------------------1463. Cherry Pickup II------------------------------------------------------
 Hard
-
-1854
-
-18
-
-Add to List
-
-Share
 You are given a rows x cols matrix grid representing a field of cherries where grid[i][j] represents the number of cherries that you can collect from the (i, j) cell.
 
 You have two robots that can collect cherries for you:

@@ -2,14 +2,6 @@
 /*
 ---------------------------------------------------------1345. Jump Game IV-----------------------------------------------
 Hard
-
-1748
-
-69
-
-Add to List
-
-Share
 Given an array of integers arr, you are initially positioned at the first index of the array.
 
 In one step you can jump from index i to index:

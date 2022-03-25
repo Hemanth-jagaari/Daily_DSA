@@ -3,13 +3,6 @@
 -----------------------------------------------------------------856. Score of Parentheses--------------------------------------------------
 Medium
 
-3643
-
-110
-
-Add to List
-
-Share
 Given a balanced parentheses string s, return the score of the string.
 
 The score of a balanced parentheses string is based on the following rule:

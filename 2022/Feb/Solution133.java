@@ -2,14 +2,6 @@
 /*
 ------------------------------------------------------------133. Clone Graph--------------------------------------------------------
 Medium
-
-5382
-
-2402
-
-Add to List
-
-Share
 Given a reference of a node in a connected undirected graph.
 
 Return a deep copy (clone) of the graph.
