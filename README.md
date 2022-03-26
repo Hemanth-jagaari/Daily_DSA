@@ -122,6 +122,7 @@ print("WELCOME!")
   [Day 23 Broken Calculator](/2022/March/Solution991.java)<br>
   [Day 24 Boats to Save People](/2022/March/Solution881.java)<br>
   [Day 25 Two City Scheduling](/2022/March/Solution1029.java)<br>
+  [Day 26 Binary Search](/2022/March/Solution704.java)<br>
  
   </details>
   
