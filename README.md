@@ -123,6 +123,8 @@ print("WELCOME!")
   [Day 24 Boats to Save People](/2022/March/Solution881.java)<br>
   [Day 25 Two City Scheduling](/2022/March/Solution1029.java)<br>
   [Day 26 Binary Search](/2022/March/Solution704.java)<br>
+  [Day 27 The K Weakest Rows in a Matrix](/2022/March/Solution1337.java)<br>
+  [Day 28 Search in Rotated Sorted Array II](/2022/March/Solution81.java)<br>
  
   </details>
   
