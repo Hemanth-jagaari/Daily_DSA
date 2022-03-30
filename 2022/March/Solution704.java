@@ -3,13 +3,6 @@
 ------------------------------------------------------704. Binary Search-----------------------------------------------------------
 Easy
 
-4209
-
-102
-
-Add to List
-
-Share
 Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 
 You must write an algorithm with O(log n) runtime complexity.
