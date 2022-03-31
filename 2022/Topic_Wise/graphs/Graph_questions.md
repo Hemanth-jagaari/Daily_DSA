@@ -1,4 +1,38 @@
 ## Questions & solutions
+<details><summary>Flood Fill</summary>
+    
+    Questoion description:
+    An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image.
+    You are also given three integers sr, sc, and newColor. You should perform a flood fill on the image starting from the pixel image[sr][sc].
+    To perform a flood fill, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel,
+    plus any pixels connected 4-directionally to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels 
+    with newColor.
+
+    Return the modified image after performing the flood fill.
+    Idea to solve
+    Solution Aapproach:
+    use dfs trversal to explore all direction of given values and make newcolor to visited cells.
+[Question Link](https://leetcode.com/problems/flood-fill/)
+```java
+class Solution {
+    public void solve(int[][] image,int i,int j,int val,int color){
+        if(i<0 || i>=image.length || j<0 || j>=image[0].length  ) return ;
+        if(image[i][j]!=val) return;
+        image[i][j]=color;
+        solve(image,i+1,j,val,color);
+        solve(image,i-1,j,val,color);
+        solve(image,i,j+1,val,color);
+        solve(image,i,j-1,val,color);
+        return;
+    }
+    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
+        if(image[sr][sc]==newColor) return image;
+        solve(image,sr,sc,image[sr][sc],newColor);
+        return image;
+    }
+}
+```
+</details>
 <details><summary>Nodes at even distance</summary>
 
     Given a connected acyclic graph with n nodes and n-1 edges, 
@@ -254,6 +288,53 @@ class Solution {
         return c;
     }
 }
+```
+</details>
+<details><summary>Word Ladder</summary>
+    
+    Questoion description
+    Idea to solve
+    Solution Aapproach:
+[Question Link](https://leetcode.com/problems/word-ladder/)
+```java
+    class Solution{
+    }
+```
+</details>
+ <br>
+<details><summary>Minimum Genetic Mutation</summary>
+    
+    Questoion description
+    Idea to solve
+    Solution Aapproach:
+[Question Link](https://leetcode.com/problems/minimum-genetic-mutation/)
+```java
+    class Solution{
+    }
+```
+</details>
+<br>
+<details><summary>Shortest Path Visiting All Nodes</summary>
+    
+    Questoion description
+    Idea to solve
+    Solution Aapproach:
+[Question Link](https://leetcode.com/problems/max-area-of-island/)
+```java
+    class Solution{
+    }
+```
+</details>
+<br>
+<details><summary>Minimum Operations to Convert Number</summary>
+    
+    Questoion description
+    Idea to solve
+    Solution Aapproach:
+[Question Link](https://leetcode.com/problems/max-area-of-island/)
+```java
+    class Solution{
+    }
 ```
 </details>
 <details><summary>Name of the Question</summary>
