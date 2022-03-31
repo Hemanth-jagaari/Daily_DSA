@@ -127,6 +127,7 @@ print("WELCOME!")
   [Day 28 Search in Rotated Sorted Array II](/2022/March/Solution81.java)<br>
   [Day 29 Find the Duplicate Number](/2022/March/Solution287.java)<br>
   [Day 30 Search a 2D Matrix](/2022/March/Solution74.java)<br>
+  [Day 31 Split Array Largest Sum](/2022/March/Solution410.java)<br>
  
   </details>
   
