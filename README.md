@@ -131,7 +131,22 @@ print("WELCOME!")
  
   </details>
   
-</details>
+  <details><summary>April</summary>
+
+  [Day 1 Reverse String](/2022/April/Solution344.java)<br>
+  [Day 2 Valid Palindrome II](/2022/April/Solution680.java)<br>
+
+
+
+
+
+
+
+
+
+
+
+  </details>
 <details><summary>Leetcode weekly contest</summary>
   
   
