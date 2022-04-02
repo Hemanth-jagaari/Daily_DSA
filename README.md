@@ -1,6 +1,4 @@
 ## Daily DSA Practice
-
-
 <details><summary>2022 click </summary>
 <p>
 
@@ -136,17 +134,15 @@ print("WELCOME!")
   [Day 1 Reverse String](/2022/April/Solution344.java)<br>
   [Day 2 Valid Palindrome II](/2022/April/Solution680.java)<br>
 
-
-
-
-
-
-
-
-
-
-
   </details>
+  <details><summary>GFG PRACTICE</summary>
+    
+    
+  [Practice](/2022/GFG/GFG_PRACT.md)
+  </details>
+
+</details>
+
 <details><summary>Leetcode weekly contest</summary>
   
   
