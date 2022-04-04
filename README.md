@@ -134,6 +134,7 @@ print("WELCOME!")
   [Day 1 Reverse String](/2022/April/Solution344.java)<br>
   [Day 2 Valid Palindrome II](/2022/April/Solution680.java)<br>
   [Day 3 Next Permutation](/2022/April/Solution31.java)<br>
+  [Day 4 Swapping Nodes in a Linked List](/2022/April/Solution1721.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
