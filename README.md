@@ -136,6 +136,8 @@ print("WELCOME!")
   [Day 3 Next Permutation](/2022/April/Solution31.java)<br>
   [Day 4 Swapping Nodes in a Linked List](/2022/April/Solution1721.java)<br>
   [Day 5 Container With Most Water](/2022/April/Solution11.java)<br>
+  [Day 6 3Sum With Multiplicity](/2022/April/Solution923.java)<br>
+  [Day 7 Last Stone Weight](/2022/April/Solution1046.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
