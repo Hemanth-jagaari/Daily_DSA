@@ -138,6 +138,32 @@ class Main{
 ```
 </details>
 <details><summary>5.Kth symbol in grammer</summary>
+    
+    Problem Ststement:
+    We build a table of n rows (1-indexed). We start by writing 0 in the 1st row. 
+    Now in every subsequent row, we look at the previous row and replace each occurrence of 0 with 01, and each occurrence of 1 with 10.
+
+    For example, for n = 3, the 1st row is 0, the 2nd row is 01, and the 3rd row is 0110.
+    Given two integer n and k, return the kth (1-indexed) symbol in the nth row of a table of n rows.
+    Solution Approach:
+    Observation that the row is symmetrical or half is same as previous row and next half reverse of previour row numner of elemnts is 2 pow (n-1)
+    write conditions accordingly
+[Practice Link](https://leetcode.com/problems/k-th-symbol-in-grammar/submissions/)
+```java
+class Solution {
+    public int kthGrammar(int n, int k) {
+        if(n==1 && k==1) return 0;
+        int size=(int)Math.pow(2,n-1);
+        int mid=size/2;
+        if(k<=mid) return kthGrammar(n-1,k);
+        else{
+            int a=kthGrammar(n-1,k-mid);
+            if(a==0) return 1;
+            else return 0;
+        }
+    }
+}
+```
 </details>
 <details><summary>6.Towers of hanoi</summary>
 </details>
