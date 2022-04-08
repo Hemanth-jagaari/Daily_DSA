@@ -166,6 +166,39 @@ class Solution {
 ```
 </details>
 <details><summary>6.Towers of hanoi</summary>
+  
+    Problem Statement:
+    Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. The objective of the puzzle is to move the entire stack to another rod, 
+    obeying the following simple rules: 
+
+    Only one disk can be moved at a time.
+    Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. 
+    a disk can only be moved if it is the uppermost disk on a stack.
+    No disk may be placed on top of a smaller disk.
+    Solution Approach:
+    Consider 3 poles source destination and auxilery
+    The pattern here is :
+    Shift 'n-1' disks from Source pole  to auxilery using destination.
+    Shift last disk from source to destination.
+    Shift 'n-1' disks from auxilery to destination using source.
+[Practice Link](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1/)
+```java
+class Hanoi {
+
+    public long toh(int N, int from, int to, int aux) {
+        if(N==1){
+            System.out.println("move disk "+N+" from rod "+from+" to rod "+to);
+            return 1;
+        }
+        long res=toh(N-1,from,aux,to);
+        res=res+1;
+       System.out.println("move disk "+N+" from rod "+from+" to rod "+to);
+       res+=toh(N-1,aux,to,from);
+       return res;
+    }
+}
+
+```
 </details>
 <details><summary>7.print subsets/subsequences(string)</summary>
 </details>
