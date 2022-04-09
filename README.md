@@ -139,6 +139,7 @@ print("WELCOME!")
   [Day 6 3Sum With Multiplicity](/2022/April/Solution923.java)<br>
   [Day 7 Last Stone Weight](/2022/April/Solution1046.java)<br>
   [Day 8 Kth Largest Element in a Stream](/2022/April/Solution703.java)<br>
+  [Day 9 Top K Frequent Elements](/2022/April/Solution347.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
