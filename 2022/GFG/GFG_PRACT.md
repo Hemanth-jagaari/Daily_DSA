@@ -305,4 +305,8 @@ class Solution{
 ```
 
 </details>
+<details><summary>Find the Maximum Flow</summary>
+</details>
+<details><summary>Longest substring to form a Palindrome </summary>
+</details>
 
