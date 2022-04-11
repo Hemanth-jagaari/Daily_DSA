@@ -1,17 +1,5 @@
 ## Daily DSA Practice
 <details><summary>2022 click </summary>
-<p>
-
-
-
-```python
-print("WELCOME!")
-```
-```html
-<h1>WeLcOmE</h1>
-```
-
-</p>
   <details><summary>January</summary>   
     
     
