@@ -101,22 +101,28 @@ class Solution {
 
     Given the final string s, return the sum of the score of every si.
 ```java
-  // Not optimized gives TLE 
 class Solution {
     public long sumScores(String s) {
         long ans=0;
+        char[] arr=s.toCharArray();
         int n=s.length();
-		    int i=1;
-		    while(i<n){
-		    int j=i;
-		    int k=0;
-		    while(j<n && s.charAt(k)==s.charAt(j)){
-		        k++;
-		        j++;
+		int i=1;
+        int l=0,r=0;
+        int[] z=new int[n];
+		while(i<n){
+            if(i<=r){
+                z[i]=Math.min(r-i+1,z[i-l]);
+            }
+		    while(i+z[i]<n && arr[z[i]]==arr[i+z[i]]){
+		        ++z[i];
 		    }
-            ans+=k;
-		    i++;
+            if(i+z[i]-1>r) {
+                l=i;
+                r=i+z[i]-1;
+            }
+            i++;
 		}
+        for(int val:z) ans+=val;
         return ans+n;
     }
 }
