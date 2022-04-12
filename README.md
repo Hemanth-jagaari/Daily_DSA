@@ -166,7 +166,7 @@
   [Biweekly Contest 73](/Contests/Biweekly/Week73.md)<br>
   [Weekly Contest 283](/Contests/Weekly/Week283.md)<br>
   [Weekly Contest 284](/Contests/Weekly/Week284.md)<br>
-  [Biweekly Contest 74](/Contests/Biweekly/Week74)<br>
+  [Biweekly Contest 74](/Contests/Biweekly/Week74.md)<br>
   [Weekly Contest 285](/Contests/Weekly/Week285.md)<br>
   [Weekly Contest 286](/Contests/Weekly/Week286.md)<br>
   [Biweekly Contest 75](/Contests/Biweekly/Week75.md)<br>
