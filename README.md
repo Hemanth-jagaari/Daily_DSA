@@ -134,6 +134,7 @@
   [Day 10 Baseball Game](/2022/April/Solution682.java)<br>
   [Day 11 Shift 2D Grid](/2022/April/Solution1260.java)<br>
   [Day 12 Game of Life](/2022/April/Solution289.java)<br>
+  [Day 13 Spiral Matrix II](/2022/April/Solution59.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
