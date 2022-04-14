@@ -19,6 +19,9 @@ Output: [[1]]
 Constraints:
 
 1 <= n <= 20
+Solution Approach:
+need to move in four direction d=0 left to right d=1 top to bottom and d=2 right to left and d=3 bottom to top 
+maintain corresponding values of left right top left and change of each direction.
 */
 class Solution59{
     public int[][] generateMatrix(int n) {
