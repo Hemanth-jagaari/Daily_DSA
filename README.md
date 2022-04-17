@@ -137,6 +137,8 @@
   [Day 13 Spiral Matrix II](/2022/April/Solution59.java)<br>
   [Day 14 Search in a Binary Search Tree](/2022/April/Solution700.java)<br>
   [Day 15 Trim a Binary Search Tree](/2022/April/Solution669.java)<br>
+  [Day 16 Convert BST to Greater Tree](/2022/April/Solution538.java)<br>
+  [Day 17 Increasing Order Search Tree](/2022/April/Solution897.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
