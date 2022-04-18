@@ -150,5 +150,39 @@ class Solution {
     String encrypt(String word1) Encrypts word1 with the encryption process described above and returns the encrypted string.
     int decrypt(String word2) Returns the number of possible strings word2 could decrypt to that also appear in dictionary.
 ```java
+class Encrypter {
+    public HashMap<Character,String> map;
+    public HashMap<String,Integer> dict;
+    public Encrypter(char[] keys, String[] values, String[] dictionary) {
+        map=new HashMap<>();
+        dict=new HashMap<>();
+        for(int i=0;i<keys.length;i++) map.put(keys[i],values[i]);
+        for(String s:dictionary){
+            String res=encrypt(s);
+            dict.put(res,dict.getOrDefault(res,0)+1);
+        }
+    }
+    public String encrypt(String word1) {
+        String res="";
+       for(char ch:word1.toCharArray()){
+           if(map.containsKey(ch)){
+               res+=map.get(ch);
+           }
+           else return "";
+       }
+        return res;
+    }
+    
+    public int decrypt(String word2) {
+        return dict.getOrDefault(word2,0);
+    }
+}
+
+/**
+ * Your Encrypter object will be instantiated and called as such:
+ * Encrypter obj = new Encrypter(keys, values, dictionary);
+ * String param_1 = obj.encrypt(word1);
+ * int param_2 = obj.decrypt(word2);
+ */
 ```
 </details>
