@@ -139,6 +139,7 @@
   [Day 15 Trim a Binary Search Tree](/2022/April/Solution669.java)<br>
   [Day 16 Convert BST to Greater Tree](/2022/April/Solution538.java)<br>
   [Day 17 Increasing Order Search Tree](/2022/April/Solution897.java)<br>
+  [Day 18 Kth Smallest Element in a BST](/2022/April/Solution230.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
