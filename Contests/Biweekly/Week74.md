@@ -121,8 +121,37 @@
     such that the number of white tiles still visible is minimum. Carpets may overlap one another.
     Return the minimum number of white tiles still visible.
 ```java
-  class Solution {
+class Solution {
+    int[] prefix;
+    int[][] dp;
+    public int solve(char[] arr,int i,int n,int clen){
+        if(i>=arr.length) return 0;
+        if(dp[i][n]!=-1) return dp[i][n];
+        int ans=0;
+        if(n==0) return prefix[arr.length-1]-prefix[i-1];
+        if(arr[i]=='1'){
+            ans =Math.min(solve(arr,i+clen,n-1,clen),1+solve(arr,i+1,n,clen));
+        }
+        else{
+            ans=solve(arr,i+1,n,clen);
+        }
+        dp[i][n]=ans;
+        return ans;
+    }
     public int minimumWhiteTiles(String floor, int numCarpets, int carpetLen) {
+        int n=floor.length();
+        char[] arr=floor.toCharArray();
+        prefix=new int[n];
+        dp=new int[n+1][numCarpets+1];
+        for(int[] d:dp){
+            Arrays.fill(d,-1);
+        }
+        int p=0;
+        for(int i=0;i<n;i++){
+            if(arr[i]=='1') p++;
+            prefix[i]=p;
+        }
+        return solve(arr,0,numCarpets,carpetLen);
         
     }
 }
