@@ -141,6 +141,7 @@
   [Day 17 Increasing Order Search Tree](/2022/April/Solution897.java)<br>
   [Day 18 Kth Smallest Element in a BST](/2022/April/Solution230.java)<br>
   [Day 19 Recover Binary Search Tree](/2022/April/Solution99.java)<br>
+  [Day 20 Binary Search Tree Iterator](/2022/April/Solution173.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
