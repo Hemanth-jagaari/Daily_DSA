@@ -143,6 +143,7 @@
   [Day 19 Recover Binary Search Tree](/2022/April/Solution99.java)<br>
   [Day 20 Binary Search Tree Iterator](/2022/April/Solution173.java)<br>
   [Day 21 Design HashSet](/2022/April/Solution705.java)<br>
+  [Day 22 Design HashMap](/2022/April/Solution706.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
