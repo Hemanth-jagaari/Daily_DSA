@@ -309,4 +309,67 @@ class Solution{
 </details>
 <details><summary>Longest substring to form a Palindrome </summary>
 </details>
+<details><summary>Closest Palindrome </summary>
 
+	Problem Statement:
+	Given a number num, our task is to find the closest Palindrome number whose absolute difference with given number is minimum. 
+	If 2 Palindome numbers have same absolute difference from the given number, then find the smaller one.
+[Practice Link](https://practice.geeksforgeeks.org/problems/closest-palindrome4519/1#)
+```java
+class Solution
+{
+    public long reverse(long n){
+        long sum=0;
+        while(n>0){
+            sum=sum*10 + n%10;
+            n=n/10;
+        }
+        return sum;
+    }
+    public long closestPalindrome(long num)
+    {
+        if(num<=9) return num;
+        int c=0;
+        long k=num;
+        while(k>0){
+            c++;
+            k=k/10;
+        }
+        List<Long> ans=new ArrayList<>();
+        ans.add((long)Math.pow(10,c)+1);
+        ans.add((long)Math.pow(10,c)-1);
+        ans.add((long)Math.pow(10,c-1)+1);
+        ans.add((long)Math.pow(10,c-1)-1);
+        
+        long mid=(c+1)/2;
+        long prefix=num/(long)Math.pow(10,c-mid);
+        long[] arr=new long[]{prefix-1,,prefix,prefix+1};
+        for(long val:arr){
+            long sufix=val;
+            if(c%2!=0) sufix=sufix/10;
+            sufix=reverse(sufix);
+            long res=val*(long)Math.pow(10,c-mid) +sufix;
+            ans.add(res);
+        }
+        long mindiff=Long.MAX_VALUE;
+        long min=num;
+        for(long val:ans){
+            if(Math.abs(num-val)<mindiff){
+                mindiff=Math.abs(num-val);
+                min=val;
+            }
+            else if(Math.abs(num-val)==mindiff){
+                min=Math.min(val,min);
+            }
+        }
+        return min;
+        
+    }
+}
+```
+ 
+</details>
+<details><summary>Word Wrap</summary></details>
+<details><summary>Maximum sum Rectangle</summary></details>
+<details><summary>Negative weight cycle</summary></details>
+<details><summary>Geek in a Maze</summary></details>
