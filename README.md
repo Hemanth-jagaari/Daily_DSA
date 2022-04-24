@@ -145,6 +145,7 @@
   [Day 21 Design HashSet](/2022/April/Solution705.java)<br>
   [Day 22 Design HashMap](/2022/April/Solution706.java)<br>
   [Day 23 Encode and Decode TinyURL](/2022/April/Solution535.java)<br>
+  [Day 24 Design Underground System](/2022/April/Solution1396.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
