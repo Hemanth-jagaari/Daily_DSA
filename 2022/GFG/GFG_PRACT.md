@@ -373,3 +373,53 @@ class Solution
 <details><summary>Maximum sum Rectangle</summary></details>
 <details><summary>Negative weight cycle</summary></details>
 <details><summary>Geek in a Maze</summary></details>
+<details><summary>Product of Primes </summary>
+
+	Problem Statement:
+	Given two numbers L and R (inclusive) find the product of primes within this range. 
+	Print the product modulo 109+7. If there are no primes in that range you must print 1.
+[Practice Link](https://practice.geeksforgeeks.org/problems/product-of-primes5328/1#)
+```java
+class Solution{
+    static long primeProduct(long L, long R){
+        boolean[] arr=new boolean[(int)(R-L+1)];
+        
+        Arrays.fill(arr,true);
+        long sqrt=(long)Math.sqrt(R);
+        boolean[] pre=new boolean[(int)(sqrt)+1];
+        Arrays.fill(pre,true);
+        pre[0]=false;
+        pre[1]=false;
+        for(int i=2;i<=sqrt;i++){
+            if(pre[i]==true){
+                for(int j=i*i;j<=sqrt;j+=i){
+                    pre[j]=false;
+                }
+            }
+        }
+       // System.out.println("sqrt ="+sqrt);
+        for(long i=2;i<=sqrt;i++){
+            if(pre[(int)i]==true){
+                long frst=(L/i)*i;
+                if(frst<L) frst+=i;
+                for(long j=Math.max(i*i*1L,frst);j<=R;j+=i){
+                if(j-L>=0)
+                arr[(int)(j-L)]=false;
+            }
+            }
+            
+        }
+        long pro=1;
+        long mod=1000000007;
+        if(L==1) arr[0]=false;
+        for(long i=L;i<=R;i++){
+            if(arr[(int)(i-L)]==true){
+                pro=((pro%mod)*(i%mod))%mod;
+            }
+        }
+        
+        return pro;
+    }
+}
+```
+</details>
