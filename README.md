@@ -146,6 +146,7 @@
   [Day 22 Design HashMap](/2022/April/Solution706.java)<br>
   [Day 23 Encode and Decode TinyURL](/2022/April/Solution535.java)<br>
   [Day 24 Design Underground System](/2022/April/Solution1396.java)<br>
+  [Day 25 Peeking Iterator](/2022/April/Solution284.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
