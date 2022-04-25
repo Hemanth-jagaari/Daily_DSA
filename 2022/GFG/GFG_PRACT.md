@@ -423,3 +423,41 @@ class Solution{
 }
 ```
 </details>
+<details><summary>Pairs of Non Coinciding Points </summary>
+	
+	Problem Statement:
+	In a given cartesian plane, there are N points. We need to find the Number of Pairs of  points(A, B) such that
+
+	Point A and Point B do not coincide.
+	Manhattan Distance and the Euclidean Distance between the points should be equal.
+	Note: Pair of 2 points(A,B) is considered same as Pair of 2 points(B ,A).
+	Manhattan Distance = |x2-x1|+|y2-y1|
+	Euclidean Distance   = ((x2-x1)^2 + (y2-y1)^2)^0.5, where points are (x1,y1) and (x2,y2).
+[Practice Link](https://practice.geeksforgeeks.org/problems/pairs-of-non-coinciding-points4141/1#)
+```java
+class Solution {
+    static int numOfPairs(int[] X, int[] Y, int N) {
+        int c1=0;
+        int c2=0;
+        int c3=0;
+        HashMap<Integer,Integer> a=new HashMap<>();
+        HashMap<Integer,Integer> b=new HashMap<>();
+        HashMap<ArrayList<Integer>,Integer> ab=new HashMap<>();
+        for(int i=0;i<N;i++){
+            c1+=a.getOrDefault(X[i],0);
+            a.put(X[i],a.getOrDefault(X[i],0)+1);
+            c2+=b.getOrDefault(Y[i],0);
+            b.put(Y[i],b.getOrDefault(Y[i],0)+1);
+            ArrayList<Integer> arr=new ArrayList<>();
+            arr.add(X[i]);
+            arr.add(Y[i]);
+            
+            c3+=ab.getOrDefault(arr,0);
+            ab.put(arr,ab.getOrDefault(arr,0)+1);
+        }
+        return c1+c2-2*c3;
+          
+    }
+}
+```
+</details>
