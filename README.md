@@ -150,6 +150,7 @@
   [Day 26 Min Cost to Connect All Points](/2022/April/Solution1584.java)<br>
   [Day 27 Smallest String With Swaps](/2022/April/Solution1202.java)<br>
   [Day 28 Path With Minimum Effort](/2022/April/Solution1631.java)<br>
+  [Day 29 Is Graph Bipartite?](/2022/April/Solution785.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
