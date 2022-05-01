@@ -151,6 +151,14 @@
   [Day 27 Smallest String With Swaps](/2022/April/Solution1202.java)<br>
   [Day 28 Path With Minimum Effort](/2022/April/Solution1631.java)<br>
   [Day 29 Is Graph Bipartite?](/2022/April/Solution785.java)<br>
+  [Day 30 Evaluate Division](/2022/April/Solution399.java)<br>
+
+  </details>
+
+
+  <details><summary>May</summary>
+
+  [Day 1 Backspace String Compare](/2022/May/Solution844.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
