@@ -159,6 +159,7 @@
   <details><summary>May</summary>
 
   [Day 1 Backspace String Compare](/2022/May/Solution844.java)<br>
+  [Day 2 Sort Array By Parity](/2022/May/Solution905.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
