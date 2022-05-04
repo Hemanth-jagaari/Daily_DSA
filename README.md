@@ -161,6 +161,7 @@
   [Day 1 Backspace String Compare](/2022/May/Solution844.java)<br>
   [Day 2 Sort Array By Parity](/2022/May/Solution905.java)<br>
   [Day 3 Shortest Unsorted Continuous Subarray](/2022/May/Solution581.java)<br>
+  [Day 4 Max Number of K-Sum Pairs](/2022/May/Solution1679.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
