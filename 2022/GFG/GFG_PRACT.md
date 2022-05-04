@@ -461,3 +461,46 @@ class Solution {
 }
 ```
 </details>
+<details><summary>Queries on Strings</summary>
+	
+	Problem Statement:
+	Given a string str you have to answer several queries on that string. 
+	In each query you will be provided two values L and R and you have to find the 
+	number of distinct characters in the sub string from index L to index R (inclusive) of the original string.
+
+[Practice Link](https://practice.geeksforgeeks.org/problems/queries-on-strings5636/1#)
+```java
+class Solution
+{
+    public int[] SolveQueris(String str, int[][] Query)
+    {
+        int n=str.length();
+        int[][] dp=new int[n][26];
+        for(int i=0;i<n;i++){
+            if(i==0) dp[i][str.charAt(i)-'a']++;
+            else{
+                for(int j=0;j<26;j++) dp[i][j]=dp[i-1][j];
+                dp[i][str.charAt(i)-'a']++;
+            }
+        }
+        int m=Query.length;
+        int[] ans=new int[m];
+        for(int i=0;i<m;i++){
+            int l=Query[i][0]-1;
+            int r=Query[i][1]-1;
+            int c=0;
+            for(int j=0;j<26;j++){
+                if(l==0) c+=dp[r][j]>0?1:0;
+                else c+=(dp[r][j]-dp[l-1][j])>0?1:0;
+            }
+            ans[i]=c;
+        }
+        return ans;
+        
+    }
+}
+```
+	
+	
+
+</details>
