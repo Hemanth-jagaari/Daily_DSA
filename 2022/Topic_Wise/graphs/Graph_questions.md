@@ -128,6 +128,48 @@ class Solution
 }
  ```
 </details>
+<details><summary>Party in Town</summary>
+    
+        Question Description:
+        Geek town has N Houses numbered from 1 to N. 
+        They are connected with each other via N-1 bidirectional roads and an adjacency list adj is used to represent the connections. 
+        To host the optimal party, you need to identify the house from which the distance to the farthest house is minimum.     
+        Find this distance.
+        Solution Approach:
+        Dfs traversal from all nodes and comparing the longest depth node from each node.
+    
+[Practice Link](https://practice.geeksforgeeks.org/problems/party-in-town3951/1)
+```java
+class Solution{
+    public static int depth=0;
+    public static void dfs(ArrayList<ArrayList<Integer>> adj,int i,boolean[] visited,int d){
+        visited[i]=true;
+        for(int j=0;j<adj.get(i).size();j++){
+            if(!visited[adj.get(i).get(j)]){
+                dfs(adj,adj.get(i).get(j),visited,d+1);
+            }
+        }
+        depth=Math.max(d,depth);
+    }
+    static int partyHouse(int N, ArrayList<ArrayList<Integer>> adj)
+    {
+        int mon=Integer.MAX_VALUE;
+        for(int i=1;i<=N;i++){
+            boolean[] visited=new boolean[N+1];
+            depth=0;
+            dfs(adj,i,visited,0);
+            mon=Math.min(mon,depth);
+        }
+        return mon;
+         
+    }
+}
+```
+
+    
+    
+    
+</details>
 <details><summary>Clone Graph</summary>
     
     Questoion description
