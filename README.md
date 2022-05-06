@@ -163,6 +163,7 @@
   [Day 3 Shortest Unsorted Continuous Subarray](/2022/May/Solution581.java)<br>
   [Day 4 Max Number of K-Sum Pairs](/2022/May/Solution1679.java)<br>
   [Day 5 Implement Stack using Queues](/2022/May/Solution225.java)<br>
+  [Day 6 Remove All Adjacent Duplicates in String II](/2022/May/Solution1209.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
