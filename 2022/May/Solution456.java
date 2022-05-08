@@ -32,27 +32,16 @@ n == nums.length
 -109 <= nums[i] <= 109
 */
 class Solution456 {
-   class Pair{
-       int min;
-       int num;
-       Pair(int m,int n){
-           this.min=m;
-           this.num=n;
-       }
-   }
     public boolean find132pattern(int[] nums) {
-        Stack<Pair> stack=new Stack<>();
+        Stack<Integer> stack=new Stack<>();
         int n=nums.length;
-        int min=nums[0];
-        for(int i=1;i<n;i++){
-            while(!stack.isEmpty() && nums[i]>=stack.peek().num){
-                stack.pop();
+        int min=Integer.MIN_VALUE;
+        for(int i=n-1;i>=0;i--){
+            if(nums[i]<min) return true;
+            while(!stack.isEmpty() && nums[i]>stack.peek()){
+                min=stack.pop();
             }
-            if(!stack.isEmpty() && nums[i]>stack.peek().min) return true;
-            stack.push(new Pair(min,nums[i]));
-            min=Math.min(nums[i],min);
-         
-
+            stack.push(nums[i]);
         }
         return false;
     }
