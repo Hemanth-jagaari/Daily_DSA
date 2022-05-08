@@ -165,6 +165,7 @@
   [Day 5 Implement Stack using Queues](/2022/May/Solution225.java)<br>
   [Day 6 Remove All Adjacent Duplicates in String II](/2022/May/Solution1209.java)<br>
   [Day 7 132 Pattern](/2022/May/Solution456.java)<br>
+  [Day 8 Flatten Nested List Iterator](/2022/May/Solution341.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
