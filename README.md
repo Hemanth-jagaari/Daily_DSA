@@ -170,6 +170,9 @@
   [Day 10 Combination Sum III](/2022/May/Solution216.java)<br>
   [Day 11 Count Sorted Vowel Strings](/2022/May/Solution1641.java)<br>
   [Day 12 Permutations II](/2022/May/Solution47.java)<br>
+  [Day 13 Populating Next Right Pointers in Each Node II](/2022/May/Solution117.java)<br>
+  [Day 14 Network Delay Time](/2022/May/Solution743.java)<br>
+  [Day 15 Deepest Leaves Sum](/2022/May/Solution1302.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
