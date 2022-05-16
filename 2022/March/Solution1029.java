@@ -40,15 +40,10 @@ costs.length is even.
 class Solution1029 {
     public int twoCitySchedCost(int[][] costs) {
         int cost=0;
-        ArrayList<Integer> lst=new ArrayList<>();
-        int n=costs.length;
-        for(int i=0;i<n;i++){
-            cost+=costs[i][0];
-            lst.add(costs[i][1]-costs[i][0]);
-        }
-        Collections.sort(lst);
-        for(int i=0;i<lst.size()/2;i++){
-            cost+=lst.get(i);
+        Arrays.sort(costs,(a,b) ->((a[0]-a[1])-(b[0]-b[1])));
+        for(int i=0;i<costs.length;i++){
+            if(i<costs.length/2) cost+=costs[i][0];
+            else cost+=costs[i][1];
         }
         return cost;
     }

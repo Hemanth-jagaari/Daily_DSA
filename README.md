@@ -173,6 +173,7 @@
   [Day 13 Populating Next Right Pointers in Each Node II](/2022/May/Solution117.java)<br>
   [Day 14 Network Delay Time](/2022/May/Solution743.java)<br>
   [Day 15 Deepest Leaves Sum](/2022/May/Solution1302.java)<br>
+  [Day 16 Shortest Path in Binary Matrix](/2022/May/Solution1091.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
