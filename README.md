@@ -174,6 +174,10 @@
   [Day 14 Network Delay Time](/2022/May/Solution743.java)<br>
   [Day 15 Deepest Leaves Sum](/2022/May/Solution1302.java)<br>
   [Day 16 Shortest Path in Binary Matrix](/2022/May/Solution1091.java)<br>
+  [Day 17 Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/2022/May/Solution1379.java)<br>
+  [Day 18 Critical Connections in a Network](/2022/May/Solution1192.java)<br>
+  [Day 19 Longest Increasing Path in a Matrix](/2022/May/Solution329.java)<br>
+  [Day 20 Unique Paths II](/2022/May/Solution63.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
