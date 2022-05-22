@@ -179,6 +179,7 @@
   [Day 19 Longest Increasing Path in a Matrix](/2022/May/Solution329.java)<br>
   [Day 20 Unique Paths II](/2022/May/Solution63.java)<br>
   [Day 21 Coin Change](/2022/May/Solution322.java)<br>
+  [Day 22 Palindromic Substrings](/2022/May/Solution647.java)<br>
 
   </details>
   <details><summary>GFG PRACTICE</summary>
