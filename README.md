@@ -180,6 +180,15 @@
   [Day 20 Unique Paths II](/2022/May/Solution63.java)<br>
   [Day 21 Coin Change](/2022/May/Solution322.java)<br>
   [Day 22 Palindromic Substrings](/2022/May/Solution647.java)<br>
+  [Day 23 Ones and Zeroes](/2022/May/Solution474.java)<br>
+  [Day 24 Longest Valid Parentheses](/2022/May/Solution32.java)<br>
+  [Day 25 Russian Doll Envelopes](/2022/May/Solution354.java)<br>
+  [Day 26 Number of 1 Bits](/2022/May/Solution191.java)<br>
+  [Day 27 Number of Steps to Reduce a Number to Zero](/2022/May/Solution1342.java)<br>
+  [Day 28 Missing Number](/2022/May/Solution268.java)<br>
+  [Day 29 Maximum Product of Word Lengths](/2022/May/Solution318.java)<br>
+  [Day 30 Palindromic Substrings](/2022/May/Solution647.java)<br>
+
 
   </details>
   <details><summary>GFG PRACTICE</summary>

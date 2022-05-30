@@ -50,8 +50,25 @@ Follow up: Could you solve the problem if repeated values on the tree are allowe
  * }
  */
 
-class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+class Solution1379 {
+
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
-        
+        if(original==null && cloned==null) return null;
+        if(cloned.val==target.val) {
+            return cloned;
+        }
+        final TreeNode left=getTargetCopy(original.left,cloned.left,target);
+        final TreeNode right=getTargetCopy(original.right,cloned.right,target);
+        return left==null?right:left;
     }
 }

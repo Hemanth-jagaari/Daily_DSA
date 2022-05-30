@@ -31,8 +31,37 @@ n - 1 <= connections.length <= 105
 ai != bi
 There are no repeated connections.
 */
-class Solution {
+class Solution1192 {
+    public int id=0;
+    public void dfs(List<Integer>[] graph,int previd,int node,int[] memid,boolean[] visited,List<List<Integer>> ans){
+        visited[node]=true;
+        memid[node]=id;
+        id++;
+        int currid=memid[node];
+        for(int neighbour:graph[node]){
+            if(neighbour==previd) continue;
+            if(!visited[neighbour]){
+                dfs(graph,node,neighbour,memid,visited,ans);
+                
+            }
+            memid[node]=Math.min(memid[node],memid[neighbour]);
+            if(currid<memid[neighbour]){
+                ans.add(Arrays.asList(node,neighbour));
+            }
+        }
+    }
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
+        List<List<Integer>> ans=new ArrayList<>();
+        int[] memid=new int[n];
+        boolean[] visited=new boolean[n];
+        List<Integer>[] graph=new ArrayList[n];
+        for(int i=0;i<n;i++) graph[i]=new ArrayList<>();
+        for(List<Integer> lst:connections){
+            graph[lst.get(0)].add(lst.get(1));
+            graph[lst.get(1)].add(lst.get(0));
+        }
+        dfs(graph,-1,0,memid,visited,ans);
+        return ans;
         
     }
 }
