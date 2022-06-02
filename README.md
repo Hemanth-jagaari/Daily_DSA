@@ -187,7 +187,7 @@
   [Day 27 Number of Steps to Reduce a Number to Zero](/2022/May/Solution1342.java)<br>
   [Day 28 Missing Number](/2022/May/Solution268.java)<br>
   [Day 29 Maximum Product of Word Lengths](/2022/May/Solution318.java)<br>
-  [Day 30 Palindromic Substrings](/2022/May/Solution647.java)<br>
+  [Day 30 Divide Two Integers](/2022/May/Solution29.java)<br>
 
 
   </details>
