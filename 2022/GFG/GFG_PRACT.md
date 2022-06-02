@@ -504,3 +504,87 @@ class Solution
 	
 
 </details>
+<details><summary>Rat in a Maze Problem - I </summary>
+	
+	Problem Statement:
+	Consider a rat placed at (0, 0) in a square matrix of order N * N. It has to reach the destination at (N - 1, N - 1). 
+	Find all possible paths that the rat can take to reach from source to destination. 
+	The directions in which the rat can move are 'U'(up), 'D'(down), 'L' (left), 'R' (right). 
+	Value 0 at a cell in the matrix represents that it is blocked and 
+	rat cannot move to it while value 1 at a cell in the matrix represents that rat can be travel through it.
+	Note: In a path, no cell can be visited more than one time. If the source cell is 0, the rat cannot move to any other cell.
+	
+[Practice Link](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1#)
+```java
+class Solution {
+    public static int[][] dir=new int[][]{{-1,0},{1,0},{0,-1},{0,1}};
+    public static char[] sign=new char[]{'U','D','L','R'};
+    public static void solve(int[][] m,int i,int j,String res,ArrayList<String> ans,int n){
+        if(i==n-1 && j==n-1){
+            ans.add(res);
+            return;
+        }
+        if(i<0 || i>=n || j<0 || j>=n) return;
+        if(m[i][j]==0) return;
+        for(int k=0;k<4;k++){
+            m[i][j]=0;
+            solve(m,i+dir[k][0],j+dir[k][1],res+sign[k],ans,n);
+            m[i][j]=1;
+        }
+    }
+    public static ArrayList<String> findPath(int[][] m, int n) {
+        ArrayList<String> ans=new ArrayList<>();
+        if(m[0][0]==0 || m[n-1][n-1]==0) return ans;
+        solve(m,0,0,"",ans,n);
+        return ans;
+    }
+}
+```
+</details>
+<details><summary>Rat Maze With Multiple Jumps</summary>
+	
+	Problem Statement:
+	A Maze is given as n*n matrix of blocks where source block is the upper left most block i.e., 
+	matrix[0][0] and destination block is lower rightmost block i.e., matrix[n-1][n-1]. 
+	A rat starts from source and has to reach the destination. 
+	The rat can move in only two directions: first forward if possible or down. 
+	If multiple solutions exist, the shortest earliest hop will be accepted. 
+	For the same hop distance at any point, forward will be preferred over downward. 
+	In the maze matrix, 0 means the block is the dead end and non-zero number means the block can be used in the path from source to destination. 
+	The non-zero value of mat[i][j] indicates number of maximum jumps rat can make from cell mat[i][j]. 
+	In this variation, Rat is allowed to jump multiple steps at a time instead of 1. 
+	Find a matrix which describes the position the rat to reach at the destination.
+[Practice Link](https://practice.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/1#)
+```java
+class Solution
+{
+
+    public boolean solve(int[][] matrix,int i,int j,int[][] grid,int n){
+        if(i==n-1 && j==n-1)  {
+            grid[i][j]=1;
+           return true;
+        }
+        if(i<0 || i>=n || j<0 || j>=n || matrix[i][j]==0) return false;
+        grid[i][j]=1;
+        for(int k=1;k<=matrix[i][j];k++){
+            if(solve(matrix,i,j+k,grid,n) || solve(matrix,i+k,j,grid,n)){
+                return true;
+            }
+        }
+        grid[i][j]=0;
+        return false;
+        
+    }
+    public int[][] ShortestDistance(int[][] matrix)
+    {
+         int n=matrix.length;
+         int[][] grid=new int[n][n];
+         boolean res=solve(matrix,0,0,grid,n);
+         if(res==true) return grid;
+         return new int[][]{{-1}};
+    }
+}
+```
+
+	
+</details>
