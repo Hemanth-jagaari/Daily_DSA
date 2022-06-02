@@ -191,6 +191,12 @@
 
 
   </details>
+  <details><summary>June</summary>
+  [Day 1 Running Sum of 1d Array](/2022/June/Solution1480.java)<br>
+  [Day 2 Transpose Matrix](/2022/June/Solution867.java)<br>
+
+    
+  </details>
   <details><summary>GFG PRACTICE</summary>
     
     
