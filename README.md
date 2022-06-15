@@ -26,7 +26,7 @@
   [Day 20 Koko Eating Bananas](/2022/Jan/Solution875.java)<br>
   [Day 21 Gas Station](/2022/Jan/Solution134.java)<br>
   [Day 22 Stone Game IV](/2022/Jan/Solution1510.java)<br>
-  [Day 23 Sequential Digits](/2022/Jan/Solution1291.java)<br>
+  [Day 23 Sequential Digits](/2022/Jan/Solution1291.java)<br>cd dcd
   [Day 24 Detect Capital](/2022/Jan/Solution520.java)<br>
   [Day 25 Valid Mountain Array](/2022/Jan/Solution941.java)<br>
   [Day 26 All Elements in Two Binary Search Trees](/2022/Jan/Solution1305.java)<br>
