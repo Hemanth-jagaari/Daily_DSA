@@ -38,8 +38,42 @@ Constraints:
 1 <= words[i].length <= 16
 words[i] only consists of lowercase English letters.
 */
-class Solution {
-    public int longestStrChain(String[] words) {
+class Solution1048 {
+    int[][] dp;
+    public boolean isdiffOne(String a,String b){
+        int c=0;
+        int i=0,j=0;
+        int n=a.length(),m=b.length();
+        if(n+1!=m) return false;
+        while(i<n && j<m){
+            if(a.charAt(i)!=b.charAt(j)){
+                c++;
+                j++;
+            }
+            else{
+                i++;
+                j++;
+            }
+            if(c>1) return false;
+        }
+        return true;
+    }
+    public int solve(String[] words,int i,int prev){
+        if(i==words.length) return 0;
+        int ans=0;
+        if(dp[i][prev+1]!=-1) return dp[i][1+prev];
+        if(prev==-1 || isdiffOne(words[prev],words[i])==true){
+            ans=1+solve(words,i+1,i);
+        }
+        dp[i][1+prev]=Math.max(ans,solve(words,i+1,prev));
+        return dp[i][1+prev];
         
+    }
+    public int longestStrChain(String[] words) {
+        Arrays.sort(words,(a,b)->(a.length()-b.length()));
+        int n=words.length;
+        dp=new int[n+2][n+2];
+        for(int[] d:dp) Arrays.fill(d,-1);
+        return solve(words,0,-1);
     }
 }
