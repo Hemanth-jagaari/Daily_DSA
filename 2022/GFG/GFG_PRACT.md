@@ -588,3 +588,30 @@ class Solution
 
 	
 </details>
+
+<details><summary>Nearly sorted</summary>
+	Problem Statement:
+	Given an array of n elements, where each element is at most k away from its target position, 
+	you need to sort the array optimally.
+
+[Practice Link](https://practice.geeksforgeeks.org/problems/nearly-sorted-1587115620/1#)
+
+```java
+class Solution
+{
+    //Function to return the sorted array.
+    ArrayList<Integer> nearlySorted(int arr[], int num, int k)
+    {
+        ArrayList<Integer> ans=new ArrayList<>();
+        PriorityQueue<Integer> que=new PriorityQueue<>();
+        for(int i=0;i<k;i++) que.add(arr[i]);
+        for(int i=k;i<num;i++){
+            que.add(arr[i]);
+            ans.add(que.poll());
+        }
+        while(!que.isEmpty()) ans.add(que.poll());
+        return ans;
+    }
+}
+```
+</details>
