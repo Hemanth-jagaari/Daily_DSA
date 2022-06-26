@@ -210,6 +210,18 @@
   [Day 13 Triangle](/2022/June/Solution120.java)<br>
   [Day 14 Delete Operation for Two Strings](/2022/June/Solution583.java)<br>
   [Day 15 Longest String Chain](/2022/June/Solution1048.java)<br>
+  [Day 16 Longest Palindromic Substring](/2022/June/Solution5.java)<br>
+  [Day 17 Binary Tree Cameras](/2022/June/Solution968.java)<br>
+  [Day 18 Prefix and Suffix Search](/2022/June/Solution745.java)<br>
+  [Day 19 Search Suggestions System](/2022/June/Solution1268.java)<br>
+  [Day 20 Short Encoding of Words](/2022/June/Solution820.java)<br>
+  [Day 21 Furthest Building You Can Reach](/2022/June/Solution1642.java)<br>
+  [Day 22 Kth Largest Element in an Array](/2022/June/Solution215.java)<br>
+  [Day 23 Course Schedule III](/2022/June/Solution630.java)<br>
+  [Day 24 Construct Target Array With Multiple Sums](/2022/June/Solution1354.java)<br>
+  [Day 25 Non-decreasing Array](/2022/June/Solution665.java)<br>
+  [Day 26 Maximum Points You Can Obtain from Cards](/2022/June/Solution1423.java)<br>
+  <!--[Day 27 Longest String Chain](/2022/June/Solution1048.java)<br>-->
 
 
     
