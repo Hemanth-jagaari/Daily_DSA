@@ -221,7 +221,7 @@
   [Day 24 Construct Target Array With Multiple Sums](/2022/June/Solution1354.java)<br>
   [Day 25 Non-decreasing Array](/2022/June/Solution665.java)<br>
   [Day 26 Maximum Points You Can Obtain from Cards](/2022/June/Solution1423.java)<br>
-  <!--[Day 27 Longest String Chain](/2022/June/Solution1048.java)<br>-->
+  [Day 27 Partitioning Into Minimum Number Of Deci-Binary Numbers](/2022/June/Solution1689.java)<br>
 
 
     
