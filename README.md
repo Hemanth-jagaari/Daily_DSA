@@ -223,10 +223,31 @@
   [Day 26 Maximum Points You Can Obtain from Cards](/2022/June/Solution1423.java)<br>
   [Day 27 Partitioning Into Minimum Number Of Deci-Binary Numbers](/2022/June/Solution1689.java)<br>
   [Day 28 Minimum Deletions to Make Character Frequencies Unique](/2022/June/Solution1647.java)<br>
+  [Day 29 Queue Reconstruction by Height](/2022/June/Solution406.java)<br>
+  [Day 30 Minimum Moves to Equal Array Elements II](/2022/June/Solution462.java)<br>
+
 
 
     
   </details>
+
+  <details><summary>July</summary>
+
+  [Day 1 Maximum Units on a Truck](/2022/July/Solution1710.java)<br>
+  [Day 2 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](/2022/July/Solution1465.java)<br>
+  [Day 3 Wiggle Subsequence](/2022/July/Solution376.java)<br>
+  [Day 4 Candy](/2022/July/Solution135.java)<br>
+  [Day 5 Longest Consecutive Sequence](/2022/July/Solution128.java)<br>
+  [Day 6 Fibonacci Number](/2022/July/Solution509.java)<br>
+  [Day 7 Interleaving String](/2022/July/Solution97.java)<br>
+  
+
+
+    
+  </details>
+
+
+
   <details><summary>GFG PRACTICE</summary>
     
     
@@ -237,7 +258,7 @@
 
 <details><summary>Leetcode weekly contest</summary>
   
-  
+  <!--
   
   [Weekly Contest 273](/Contests/Weekly/Week273.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Biweekly Contest 68](/Contests/Biweekly/Week68.md)<br>
   [Weekly Contest 274](/Contests/Weekly/Week274.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Biweekly Contest 69](/Contests/Biweekly/Week69.md)<br>
@@ -252,7 +273,8 @@
   [Weekly Contest 283](/Contests/Weekly/Week283.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Biweekly Contest 75](/Contests/Biweekly/Week78.md)<br>
   [Weekly Contest 284](/Contests/Weekly/Week284.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Biweekly Contest 75](/Contests/Biweekly/Week79.md)<br>
   [Weekly Contest 285](/Contests/Weekly/Week285.md)<br>
-  [Weekly Contest 286](/Contests/Weekly/Week286.md)<br>
+  [Weekly Contest 286](/Contests/Weekly/Week286.md)<br> -->
+
   
 
 
