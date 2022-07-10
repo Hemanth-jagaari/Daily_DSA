@@ -35,3 +35,22 @@ Constraints:
 1 <= numberOfBoxesi, numberOfUnitsPerBoxi <= 1000
 1 <= truckSize <= 106
 */
+class Solution1710 {
+    public int maximumUnits(int[][] boxTypes, int truckSize) {
+        Arrays.sort(boxTypes,(a,b)->{
+            return b[1]-a[1];
+        });
+        int ans=0;
+        for(int i=0;truckSize>0 && i<boxTypes.length;i++){
+            if(boxTypes[i][0]<=truckSize){
+                ans+=boxTypes[i][0]*boxTypes[i][1];
+                truckSize-=boxTypes[i][0];
+            }
+            else{
+                ans+=truckSize*boxTypes[i][1];
+                truckSize=0;
+            }
+        }
+        return ans;
+    }
+}
