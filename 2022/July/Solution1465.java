@@ -39,3 +39,30 @@ Constraints:
 All the elements in horizontalCuts are distinct.
 All the elements in verticalCuts are distinct.
 */
+class Solution1465 {
+    public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts) {
+        int mod=1000000007;
+        Arrays.sort(horizontalCuts);
+        Arrays.sort(verticalCuts);
+        long maxgaph=horizontalCuts[0];
+        long maxgapw=verticalCuts[0];
+        int n=horizontalCuts.length;
+        int m=verticalCuts.length;
+        for(int i=1;i<horizontalCuts.length;i++){
+            int gap=horizontalCuts[i]-horizontalCuts[i-1];
+            maxgaph=Math.max(maxgaph,gap);
+        }
+        maxgaph=Math.max(maxgaph,h-horizontalCuts[n-1]);
+        for(int i=1;i<m;i++){
+            int gap=verticalCuts[i]-verticalCuts[i-1];
+            maxgapw=Math.max(maxgapw,gap);
+        }
+        maxgapw=Math.max(maxgapw,w-verticalCuts[m-1]);
+      
+        long ans=(maxgaph*maxgapw)%mod;
+        return (int)ans;
+        
+        
+        
+    }
+}
