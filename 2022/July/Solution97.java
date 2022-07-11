@@ -39,7 +39,7 @@ s1, s2, and s3 consist of lowercase English letters.
 
 Follow up: Could you solve it using only O(s2.length) additional memory space?
 */
-class Solution {
+class Solution97 {
     int[][] dp;
     int x,y,z;
     public int solve(char[] a,char[] b,char[] c,int i,int j){

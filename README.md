@@ -240,6 +240,10 @@
   [Day 5 Longest Consecutive Sequence](/2022/July/Solution128.java)<br>
   [Day 6 Fibonacci Number](/2022/July/Solution509.java)<br>
   [Day 7 Interleaving String](/2022/July/Solution97.java)<br>
+  [Day 8 Paint House III](/2022/July/Solution1473.java)<br>
+  [Day 9 Jump Game VI](/2022/July/Solution1696.java)<br>
+  [Day 10 Min Cost Climbing Stairs](/2022/July/Solution746.java)<br>
+  [Day 11 Binary Tree Right Side View](/2022/July/Solution199.java)<br>
   
 
 
