@@ -244,6 +244,9 @@
   [Day 9 Jump Game VI](/2022/July/Solution1696.java)<br>
   [Day 10 Min Cost Climbing Stairs](/2022/July/Solution746.java)<br>
   [Day 11 Binary Tree Right Side View](/2022/July/Solution199.java)<br>
+  [Day 12 Matchsticks to Square](/2022/July/Solution473.java)<br>
+  [Day 13 Binary Tree Level Order Traversal](/2022/July/Solution102.java)<br>
+  [Day 14 Construct Binary Tree from Preorder and Inorder Traversal](/2022/July/Solution105.java)<br>
   
 
 
