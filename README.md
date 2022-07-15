@@ -247,6 +247,7 @@
   [Day 12 Matchsticks to Square](/2022/July/Solution473.java)<br>
   [Day 13 Binary Tree Level Order Traversal](/2022/July/Solution102.java)<br>
   [Day 14 Construct Binary Tree from Preorder and Inorder Traversal](/2022/July/Solution105.java)<br>
+  [Day 15 Max Area of Island](/2022/July/Solution695.java)<br>
   
 
 
