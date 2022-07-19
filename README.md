@@ -248,6 +248,10 @@
   [Day 13 Binary Tree Level Order Traversal](/2022/July/Solution102.java)<br>
   [Day 14 Construct Binary Tree from Preorder and Inorder Traversal](/2022/July/Solution105.java)<br>
   [Day 15 Max Area of Island](/2022/July/Solution695.java)<br>
+  [Day 16 Out of Boundary Paths](/2022/July/Solution576.java)<br>
+  [Day 17 K Inverse Pairs Array](/2022/July/Solution629.java)<br>
+  [Day 18 Number of Submatrices That Sum to Target](/2022/July/Solution1074.java)<br>
+  [Day 19 Pascal's Triangle](/2022/July/Solution118.java)<br>
   
 
 
