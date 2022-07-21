@@ -252,6 +252,8 @@
   [Day 17 K Inverse Pairs Array](/2022/July/Solution629.java)<br>
   [Day 18 Number of Submatrices That Sum to Target](/2022/July/Solution1074.java)<br>
   [Day 19 Pascal's Triangle](/2022/July/Solution118.java)<br>
+  [Day 20 Number of Matching Subsequences ](/2022/July/Solution792.java)<br>
+  [Day 21 Reverse Linked List II ](/2022/July/Solution92.java)<br>
   
 
 
